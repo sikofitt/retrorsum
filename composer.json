@@ -34,11 +34,6 @@
     }
   ],
   "minimum-stability": "stable",
-  "extra": {
-    "branch-alias": {
-      "dev-master": "master"
-    }
-  },
   "config": {
     "optimize-autoloader": true
   }
