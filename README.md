@@ -21,13 +21,13 @@ define('BASE_DIR', dirname((string)$finder));
 or
 
 ```php
-define('BASE_DIR', dirname((string)(new Finder('composer.json'))));
+define('BASE_DIR', dirname((string)(new Finder('autoload.php'))));
 ```
 
 Although this could set BASE_DIR as an empty string if it found nothing.
 
 ```php
-$finder = new Finder('composer.json');
+$finder = new Finder('autoload.php');
 if(true === $finder->isFound())
 {
     define('BASE_DIR', dirname($finder->getPath()));

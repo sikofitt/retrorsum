@@ -22,6 +22,11 @@ namespace Sikofitt\Retrorsum;
 
 /**
  * Class Finder.
+ * @Todo - Handle symlinks
+ * @Todo - Add ability to continue after finding, like 
+ *   PHP 7.0's extra parameter in dirname.
+ *   Example new Finder($file, 2) would return the second 
+ *   instance of $file.
  */
 class Finder
 {
