@@ -9,6 +9,10 @@
     "reverse",
     "find"
   ],
+  "support": {
+    "issues": "https://github.com/sikofitt/retrorsum/issues",
+    "source": "https://github.com/sikofitt/retrorsum"
+  },
   "autoload": {
     "psr-4": {
       "Sikofitt\\Retrorsum\\": "src/Sikofitt/Retrorsum"
@@ -26,6 +30,7 @@
     {
       "name": "sikofitt",
       "email": "sikofitt@gmail.com"
+
     }
   ],
   "minimum-stability": "stable",
