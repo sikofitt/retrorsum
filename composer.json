@@ -1,0 +1,40 @@
+{
+  "name": "sikofitt/retrorsum",
+  "description": "Finds a file searching recursively from the current directory.",
+  "homepage": "https://github.com/sikofitt/retrorsum",
+  "type": "library",
+  "keywords": [
+    "file",
+    "search",
+    "reverse",
+    "find"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sikofitt\\Retrorsum\\": "src/Sikofitt/Retrorsum"
+    }
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7",
+    "friendsofphp/php-cs-fixer": "^2.0"
+  },
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "sikofitt",
+      "email": "sikofitt@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "master"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
